@@ -14,6 +14,10 @@ if (document.documentElement.clientWidth > 1024) {
     iconOpen.classList.add('hidden');
     iconClose.classList.add('hidden');
     navBarContainer.classList.remove('hidden');
+} else {
+    iconOpen.classList.remove('hidden');
+    iconClose.classList.remove('hidden');
+    navBarContainer.classList.add('hidden');
 }
 
 
